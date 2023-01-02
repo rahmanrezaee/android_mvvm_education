@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "688961159035",
+    "firebase_url": "https://education-blog-852bd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "education-blog-852bd",
+    "storage_bucket": "education-blog-852bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688961159035:android:acb6e0bdee79cf9e3387de",
+        "android_client_info": {
+          "package_name": "com.rahman.educationinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688961159035-ops06majlu70e1gc50ssh414ldnfrtgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClD7lc4svz5kNdBRiSbofr1qSiWwV96Og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688961159035-ops06majlu70e1gc50ssh414ldnfrtgt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
