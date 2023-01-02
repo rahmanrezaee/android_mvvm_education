@@ -22,12 +22,6 @@ fun homePage(
 ) {
 
     val langs: List<Language> = langViewModel.lang.value
-    val db : FirebaseFirestore = FirebaseFirestore.getInstance();
-
-    val user: MutableMap<String,Any> = HashMap();
-    user["name"] = "Rahman"
-    user["lastname"] = "Rezaee"
-
 
     Column(
         Modifier.fillMaxSize(),
@@ -42,16 +36,7 @@ fun homePage(
               Text(text = "Loading...")
           }
         } else {
-            Button(onClick = {
 
-                db.collection("test").add(
-                    user
-                );
-
-
-            }) {
-                Text(text = "Add Items")
-            }
             LazyColumn {
                 itemsIndexed(items = langs) { index, message ->
                     LangCard(message) {
